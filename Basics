@@ -56,3 +56,25 @@ Ask it: “Is this beginner-friendly?” or “What level is this code?”
 Or tell it: “Please rewrite this using only beginner concepts (no arrow functions, no map, no async).”
 
 Want me to show you a before/after comparison of beginner vs non-beginner code for something like a timer or to-do app?
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+🧱 2. Things with syntax rules (not "signatures")
+These aren't functions, but they still have a required shape:
+
+Keyword	Pattern ("signature")
+if	if (condition) { ... }
+for	for (init; condition; step) { ... }
+while	while (condition) { ... }
+switch	switch(expression) { case ... }
+try/catch	try { ... } catch(err) { ... }
+
+They’re language constructs, not values or objects. You can’t assign them, pass them, or return them like you can with functions.
+
+But their structure is rigid. That’s why people sometimes casually call them having a “signature.”
+
+
+
+
+
